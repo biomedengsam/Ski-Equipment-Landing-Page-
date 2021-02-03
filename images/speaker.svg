@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><script>
+        (function() {
+            // If GPC on, set DOM property to true if not already true
+            if (true) {
+                if (navigator.globalPrivacyControl) return
+                Object.defineProperty(navigator, 'globalPrivacyControl', {
+                    value: true,
+                    enumerable: true
+                })
+            } else {
+                // If GPC off, set DOM property prototype to false so it may be overwritten
+                // with a true value by user agent or other extensions
+                if (typeof navigator.globalPrivacyControl !== "undefined") return
+                Object.defineProperty(Object.getPrototypeOf(navigator), 'globalPrivacyControl', {
+                    value: false,
+                    enumerable: true
+                })
+            }
+            // Remove script tag after execution
+            document.currentScript.parentElement.removeChild(document.currentScript)
+        })()
+        </script><g xmlns="http://www.w3.org/2000/svg"><path d="m440.526 454.711-16.75-402c-1.231-29.558-25.369-52.711-54.952-52.711h-225.648c-29.583 0-53.72 23.153-54.952 52.711l-16.75 402c-.63 15.112 4.79 29.446 15.26 40.362 10.47 10.915 24.566 16.927 39.692 16.927h259.148c15.125 0 29.222-6.012 39.692-16.928s15.89-25.25 15.26-40.361zm-36.91 19.595c-4.76 4.962-11.167 7.694-18.042 7.694h-259.148c-6.875 0-13.283-2.732-18.042-7.694s-7.223-11.478-6.937-18.347l16.75-401.999c.56-13.436 11.532-23.96 24.979-23.96h225.648c13.446 0 24.418 10.524 24.978 23.959l16.75 402.001c.287 6.868-2.177 13.384-6.936 18.346z" fill="#ffffff" data-original="#000000" style="" class=""/><path d="m256 221c-63.411 0-115 51.589-115 115s51.589 115 115 115 115-51.589 115-115-51.589-115-115-115zm0 200c-46.869 0-85-38.131-85-85s38.131-85 85-85 85 38.131 85 85-38.131 85-85 85z" fill="#ffffff" data-original="#000000" style="" class=""/><path d="m256 281c-30.327 0-55 24.673-55 55s24.673 55 55 55 55-24.673 55-55-24.673-55-55-55zm0 80c-13.785 0-25-11.215-25-25s11.215-25 25-25 25 11.215 25 25-11.215 25-25 25z" fill="#ffffff" data-original="#000000" style="" class=""/><path d="m256 191c35.841 0 65-29.159 65-65s-29.159-65-65-65-65 29.159-65 65 29.159 65 65 65zm0-100c19.299 0 35 15.701 35 35s-15.701 35-35 35-35-15.701-35-35 15.701-35 35-35z" fill="#ffffff" data-original="#000000" style="" class=""/><circle cx="156" cy="76" r="15" fill="#ffffff" data-original="#000000" style="" class=""/><circle cx="356" cy="76" r="15" fill="#ffffff" data-original="#000000" style="" class=""/><path d="m356 191h-20c-8.284 0-15 6.716-15 15s6.716 15 15 15h20c8.284 0 15-6.716 15-15s-6.716-15-15-15z" fill="#ffffff" data-original="#000000" style="" class=""/><path d="m156 221h20c8.284 0 15-6.716 15-15s-6.716-15-15-15h-20c-8.284 0-15 6.716-15 15s6.716 15 15 15z" fill="#ffffff" data-original="#000000" style="" class=""/></g></g></svg>

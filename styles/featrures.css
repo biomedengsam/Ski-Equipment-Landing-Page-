@@ -1,3 +1,41 @@
 .features {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  align-items: center;
+  align-content: center;
+  padding: 2em;
+}
+
+.green {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
+.all-features {
+  display: flex;
+  /* align-items: center;
+  align-content: center; */
+  justify-content: center;
+}
+
+.feature-btn {
+  border: solid 5px;
+  border-radius: 5px;
+  padding: 1em;
+  border-color: var(--secondary-color);
 }

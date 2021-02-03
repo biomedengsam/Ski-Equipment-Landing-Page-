@@ -1,3 +1,8 @@
 @import './reset.css';
 @import './header.css';
 @import './featrures.css';
+
+:root {
+  --primary-color: #b2dd4c;
+  --secondary-color: #f5f5f5;
+}
