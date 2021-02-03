@@ -1,0 +1,41 @@
+body,
+button,
+input {
+  font-family: 'Questrial', sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+figure,
+blockquote {
+  margin: 0;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  color: black;
+  cursor: default;
+}

@@ -1,0 +1,57 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 70px;
+  width: 140px;
+}
+
+.home {
+  display: flex;
+}
+
+li {
+  padding: 1em;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  /* padding: 0.5em; */
+  /* padding: 10rem 20%; */
+  /*  */
+  /* 'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg' */
+  background-image: url('https://i.ibb.co/VH4PKQp/background.jpg');
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  /* background-size: cover; */
+  background-size: 100% 100%;
+
+  clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 86%);
+
+  /* transform: rotate(3deg); */
+}
+
+.showcase {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* position: absolute; */
+  padding: 140px;
+  /* top: 150px; */
+  width: 20%;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+button {
+  padding: 1em;
+  margin: 2em auto;
+  margin-right: 1em;
+  background-color: #b2dd4c;
+  border-radius: 5px;
+}
