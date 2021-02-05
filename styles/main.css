@@ -14,3 +14,7 @@ p {
 body {
   color: rgb(80, 80, 80);
 }
+
+.container {
+  overflow-x: hidden;
+}
