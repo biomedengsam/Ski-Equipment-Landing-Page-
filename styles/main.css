@@ -1,6 +1,7 @@
 @import './reset.css';
 @import './header.css';
 @import './featrures.css';
+@import './offers.css';
 
 :root {
   --primary-color: #b2dd4c;
