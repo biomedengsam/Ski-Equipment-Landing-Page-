@@ -1,0 +1,14 @@
+.cart {
+  display: flex;
+  background-color: var(--secondary-color);
+  justify-content: space-around;
+  align-content: space-between;
+  padding: 3.125rem;
+  margin-top: 4.375rem;
+}
+
+.copy {
+  background-color: black;
+  padding: 1.875rem;
+  text-align: center;
+}

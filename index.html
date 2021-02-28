@@ -30,18 +30,21 @@
           <ul class="home">
             <li><a href="" class="link">Home</a></li>
             <li><a href="" class="link">Shop</a></li>
-            <li><a href="" class="link">Reviews</a></li>
+            <li><a href=""  id='review' class="link">Reviews</a></li>
             <li><a href="" class="link">Support</a></li>
             <li><a href="" class="link">Blog</a></li>
-            <li>
-              <a href="" class="link"
+            <li class="hover-cart">
+              <i class="fa fa-shopping-cart fa-lg cart-img" ></i>
+              <span class="num">0</span>
+              <!-- <a href="" class="link"
                 ><img src="./images/shopping.svg" height="20" width="20"
-              /></a>
+              /></a> -->
             </li>
             <li>
-              <a href="" class="link"
+              <i class="fa fa-search fa-lg search-img"  aria-hidden="true"></i>
+              <!-- <a href="" class="link"
                 ><img src="./images/search.svg" height="20" width="20"
-              /></a>
+              /></a> -->
             </li>
           </ul>
         </nav>
@@ -142,6 +145,7 @@
               alt="app-store"
               height="40"
               width="120"
+              class="appstore-img"
           /></a>
           <a href="#"
             ><img
@@ -175,7 +179,7 @@
             <div class="ratings">
               <div class="price">
                 <h5>Limited Edition Headphones</h5>
-                <span>$27500</span>
+                <span>$2750</span>
               </div>
               <div class="rate">
                 <span class="fa fa-star checked"></span>
@@ -184,6 +188,10 @@
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star"></span>
               </div>
+            </div>
+            <div class="buttons">
+              <button class='product-btn'><strong>DETAILS</strong></button>
+              <button class='product-btn'><strong>ADD TO CART</strong></button>
             </div>
           </div>
           <div class="card">
@@ -205,6 +213,10 @@
                 <span class="fa fa-star"></span>
               </div>
             </div>
+            <div class="buttons">
+              <button class='product-btn'><strong>DETAILS</strong></button>
+              <button class='product-btn'><strong>ADD TO CART</strong></button>
+            </div>
           </div>
           <div class="card">
             <img
@@ -225,6 +237,10 @@
                 <span class="fa fa-star"></span>
               </div>
             </div>
+            <div class="buttons">
+             <button class='product-btn'><strong>DETAILS</strong></button>
+              <button class='product-btn'><strong>ADD TO CART</strong></button>
+            </div>
           </div>
           <div class="card">
             <img
@@ -235,19 +251,31 @@
             <div class="ratings">
               <div class="price">
                 <h5>Extra Bass Headphones</h5>
-                <span>$28000</span>
+                <span>$2800</span>
               </div>
               <div class="rate">
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
+                <span class="fa fa-star checked"></span>
               </div>
+            </div>
+            <div class="buttons">
+              <button class='product-btn'><strong>DETAILS</strong></button>
+              <button class='product-btn'><strong>ADD TO CART</strong></button>
             </div>
           </div>
         </div>
       </section>
+      <footer>
+        <div class="cart">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, nemo.</p>
+          <button class="showcase-btn1 cart-btn">ADD TO CART</button>
+        </div>
+        <div class="copy">Copyright &copy; BuyIT 2021</div>
+      </footer>
     </div>
+    <script src="./landing.js"></script>
   </body>
 </html>

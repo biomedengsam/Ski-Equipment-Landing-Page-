@@ -3,6 +3,34 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+li {
+  position: relative;
+}
+
+.num {
+  position: absolute;
+  background-color: var(--primary-color);
+  bottom: 10px;
+  height: 17px;
+  padding: 0.01rem 0.1rem;
+  border-radius: 2px;
+  z-index: 30;
+}
+
+.search-img,
+.hover-cart {
+  color: grey;
+  transition: 300ms ease-in;
+}
+
+.hover-cart:hover,
+.search-img:hover {
+  transform: scale(1.5);
+  border-radius: 5px;
 }
 
 .logo {
@@ -14,7 +42,7 @@ nav {
   display: flex;
 }
 
-.home:not(:last-child) {
+.home li:not(:last-child) {
   padding-right: 2em;
 }
 
@@ -38,7 +66,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  /* background-attachment: fixed; */
   clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 85%);
 }
 
@@ -47,7 +74,6 @@ header {
   flex-direction: column;
   justify-content: flex-start;
   position: absolute;
-  /* padding: 140px; */
   top: 10%;
   left: 10%;
   width: 30%;
@@ -62,7 +88,6 @@ h1 {
 
 .showcase-btn1 {
   padding: 1em;
-  /* margin: 2em auto; */
   font-size: 1rem;
   color: white;
   margin-right: 1em;
@@ -78,8 +103,7 @@ h1 {
 .showcase-btn2 {
   padding: 1em;
   font-size: 1rem;
-  /* margin: 2em auto; */
-  border: solid rgb(223, 220, 220) 1px;
+  border: solid rgb(180 178 178) 1px;
   margin-right: 1em;
   background-color: white;
   border-radius: 5px;

@@ -16,3 +16,7 @@
   align-content: space-between;
   clip-path: polygon(0 20%, 100% 0, 100% 80%, 0% 100%);
 }
+
+.appstore-img {
+  margin-right: 1rem;
+}

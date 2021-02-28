@@ -3,6 +3,7 @@
 @import './featrures.css';
 @import './offers.css';
 @import './products.css';
+@import './footer.css';
 
 :root {
   --primary-color: #b2dd4c;

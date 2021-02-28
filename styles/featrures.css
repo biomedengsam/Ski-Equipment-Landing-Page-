@@ -29,19 +29,16 @@
 
 .all-features {
   display: flex;
-  /* flex-wrap: wrap; */
-  /* align-items: center;
-  align-content: center; */
   justify-content: center;
 }
 
 .feature-btn {
-  /* border: solid 3px; */
-  font-size: 1rem;
+  font-size: 0.8rem;
+  font-weight: bold;
   border-radius: 5px;
   padding: 1em;
+  width: 6.25rem;
   border-color: var(--primary-color);
-  /* color: var(--primary-color); */
   background-color: var(--secondary-color);
 }
 
