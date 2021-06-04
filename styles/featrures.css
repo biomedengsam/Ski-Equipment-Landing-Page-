@@ -46,3 +46,14 @@
   background-color: var(--primary-color);
   color: white;
 }
+
+@media (max-width: 900px) {
+  .all-features{
+    flex-direction: column;
+  }
+
+  .feature{
+    width: 100%;
+  }
+
+}
