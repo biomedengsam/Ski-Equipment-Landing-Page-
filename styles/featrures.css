@@ -56,4 +56,9 @@
     width: 100%;
   }
 
+  .feature-btn{
+    font-size: 1.1rem;
+    width: 10.25rem;
+  }
+
 }
