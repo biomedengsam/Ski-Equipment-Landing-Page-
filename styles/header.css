@@ -160,3 +160,21 @@ h1 {
 width: 90%;
 }
 }
+
+@media (min-width: 2000px) {
+  nav{
+    font-size: 20px;
+  }
+  .showcase h1{
+    font-size: 4em;
+  }
+
+  .showcase-info{
+    font-size: x-large;
+  }
+
+  .showcase-btn1, .showcase-btn2{
+    font-size: 1.5rem;
+  }
+
+}

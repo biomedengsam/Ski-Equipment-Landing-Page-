@@ -80,3 +80,32 @@
 .cart-btn {
   width: 8.75rem;
 }
+
+
+@media (min-width: 2000px) {
+  .card-img, .ratings{
+    height: 20.5rem;
+    width: 20.5rem;
+  }
+
+  .buttons{
+    width: 20.5rem;
+  }
+
+  .products{
+    gap: 100px;
+  }
+
+  .product-btn{
+    font-size: 1rem;
+    width: 10.75rem;
+  }
+  
+  #products h3, #products p{
+    font-size: x-large;
+  }
+
+  .card{
+    font-size: x-large;
+  }
+}

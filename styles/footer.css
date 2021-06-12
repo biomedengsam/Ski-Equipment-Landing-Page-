@@ -13,3 +13,17 @@
   padding: 1.875rem;
   text-align: center;
 }
+
+.cart-btn {
+  width: 10.75rem;
+}
+
+@media (min-width: 2000px){
+  .cart{
+    font-size: x-large;
+  }
+
+  .cart-btn {
+    width: 30.75rem;
+}
+}
