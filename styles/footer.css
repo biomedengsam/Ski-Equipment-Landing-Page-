@@ -1,5 +1,6 @@
 .cart {
   display: flex;
+  flex-wrap: wrap;
   background-color: var(--secondary-color);
   justify-content: space-around;
   align-content: space-between;
