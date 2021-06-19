@@ -14,14 +14,10 @@
 }
 
 /*product card info styles*/
-/* .card:not(:last-child) {
-  margin-right: 15px;
-} */
 .card-img {
   height: 13.5rem;
   width: 13.5rem;
   display: block;
-  /* margin-bottom: 0; */
 }
 
 .ratings {
@@ -31,8 +27,6 @@
   width: 13.5rem;
   border: solid rgb(235, 232, 232) 0.125rem;
   border-bottom: none;
-  /* margin: auto 15px; */
-  /* background-color: aqua; */
 }
 
 .ratings > * {
@@ -57,7 +51,6 @@
 /* Add to cart & details styles */
 .buttons {
   display: flex;
-  /* align-content: space-between; */
   justify-content: center;
   width: 13.5rem;
 }
@@ -69,14 +62,11 @@
   justify-content: center;
   border: solid rgb(235, 232, 232) 0.125rem;
   font-size: 0.6875rem;
-  /* border: solid gray 2px; */
 }
 
 .product-btn:first-child {
-  /* background-color: blueviolet; */
   border-right: none;
 }
-
 
 @media (min-width: 2000px) {
   .card-img, .ratings{

@@ -35,18 +35,11 @@ burger.addEventListener('click', function (e) {
 
         const hr = document.querySelector(".hr");
         hr.style.setProperty("display", "block");
-        // const home = document.querySelector(".home");
-        // home.style.setProperty("display", "none");
         const home1 = document.querySelector(".home1");
         home1.style.setProperty("display", "flex");
         const nav = document.getElementById("nav");
         nav.style.setProperty("display", "contents");
-        // const menu1 = document.querySelector(".menu1");
-        // menu1.style.setProperty("display", "block");
-
     }
-
-
 })
 
 window.addEventListener('resize',
@@ -65,12 +58,3 @@ window.addEventListener('resize',
         }
 
     })
-
-// Closing the menu
-// const fa_close = document.querySelector(".fa-times");
-// fa_close.addEventListener('click', function (e) {
-//     e.preventDefault();
-
-
-
-// })
