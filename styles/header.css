@@ -23,6 +23,7 @@ li {
 
 .search-img,
 .hover-cart {
+  cursor: pointer;
   color: grey;
   transition: 300ms ease-in;
 }
