@@ -35,8 +35,8 @@ li {
 }
 
 .logo {
-  height: 3.75rem;
-  width: 8.12rem;
+  height: 2.5rem;
+  width: 5.5rem;
 }
 
 .home {
@@ -234,6 +234,12 @@ width: 90%;
   .showcase-btn1, .showcase-btn2{
     font-size: 1.5rem;
   }
+
+  .logo {
+  height: 3.75rem;
+  width: 8.12rem;
+}
+
 
 }
 
