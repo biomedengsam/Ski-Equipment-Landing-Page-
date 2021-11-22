@@ -7,7 +7,7 @@ review.addEventListener('click', function (e) {
     reviews.scrollIntoView({ behavior: "smooth" });
 })
 
-// Smooth scroll to reviews in bigger screen sizes when clicked
+// Smooth scroll to reviews in small screen sizes when clicked
 const review2 = document.getElementById('review2');
 review2.addEventListener('click', function (e) {
     e.preventDefault();
@@ -15,6 +15,39 @@ review2.addEventListener('click', function (e) {
     reviews.scrollIntoView({ behavior: "smooth" });
 })
 
+// Smooth scroll to products in bigger screen sizes when clicked
+const products = document.getElementById('nav-products');
+products.addEventListener('click', function (e) {
+    e.preventDefault();
+    const product = document.getElementById('featured-products');
+    product.scrollIntoView({ behavior: "smooth" });
+})
+
+// Smooth scroll to products in small screen sizes when clicked
+const products1 = document.getElementById('nav-products1');
+products1.addEventListener('click', function (e) {
+    e.preventDefault();
+    const product1 = document.getElementById('featured-products');
+    product1.scrollIntoView({ behavior: "smooth" });
+})
+
+// Smooth scroll to homepage in big and small screen sizes when home nav is clicked 
+// For big size screen
+const home = document.getElementById('home');
+//For small size screens
+const home1 = document.getElementById('home1');
+// Click event on home nav
+home.addEventListener('click', function (e) {
+    e.preventDefault();
+    const homepage = document.getElementById('homepage');
+    homepage.scrollIntoView({ behavior: "smooth" });
+})
+
+home1.addEventListener('click', function (e) {
+    e.preventDefault();
+    const homepage = document.getElementById('homepage');
+    homepage.scrollIntoView({ behavior: "smooth" });
+})
 // Display menu when burger icon when clicked 
 const burger = document.getElementById('burger');
 burger.addEventListener('click', function (e) {

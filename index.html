@@ -18,22 +18,21 @@
   </head>
   <body>
     <div class="container">
-      <header id="header">
-        <nav id="nav">
+       <header id="header">
+        <nav id="nav-bar">
           <a href="https://imgbb.com/"
             ><img
-              src="https://i.ibb.co/99sGD44/Logo.png"
+              src="./images/logo1 (2).png"
               alt="Logo"
               class="logo"
+              id="header-img"
           /></a>
           <div class="menu1">
           <a href="#"><i class="fa fa-bars fa-lg" id="burger"></i></a>
           <ul class="home">
-            <li><a href="" class="link">Home</a></li>
-            <li><a href="" class="link">Shop</a></li>
-            <li><a href=""  id='review' class="link">Reviews</a></li>
-            <li><a href="" class="link">Support</a></li>
-            <li><a href="" class="link">Blog</a></li>
+            <li><a href="" class="nav-link" id="home">Home</a></li>
+            <li><a href="" class="nav-link" id="nav-products">Products</a></li>
+            <li><a href=""  id='review' class="nav-link">Reviews</a></li>
             <li class="hover-cart">
               <i class="fa fa-shopping-cart fa-lg cart-img" ></i>
               <span class="num">0</span>
@@ -44,18 +43,20 @@
           </ul>
           <div class="menu">
           <ul class="home1">
-            <li><a href="" class="link">Home</a></li>
-            <li><a href="" class="link">Shop</a></li>
-            <li><a href=""  id='review2' class="link">Reviews</a></li>
-            <li><a href="" class="link">Support</a></li>
-            <li><a href="" class="link">Blog</a></li>
+            <li><a href="" class="nav-link" id="home1">Home</a></li>
+            <li><a href="" class="nav-link" id="nav-products1">Products</a></li>
+            <li><a href=""  id='review2' class="nav-link">Reviews</a></li>
           </ul>
           <hr class="hr">
           </div>
           </div>
         </nav>
-        <section class="showcase">
-          <h1>Feel Powerful Experience</h1>
+        </header>
+      <section class="header">
+        <div id="overlay">
+       
+        <section class="showcase" id="homepage">
+          <h1>Enjoy Exciting Experience</h1>
           <div class="showcase-info">
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -68,9 +69,10 @@
             </div>
           </div>
         </section>
-      </header>
-      <section class="features">
-        <h2>Features and Specifications</h2>
+        </div>
+      </section>
+      <section class="features" id="featured-products">
+        <h2>Our Products</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adip quod dolor accusantium
           excepturi
@@ -78,9 +80,10 @@
         <div class="all-features">
           <div class="feature">
             <div class="green">
-              <img src="./images/speaker.svg" height="80" width="80" />
+              <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev">Nikita Golubev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+              <img src="./images/ski.png" height="80" width="80" />
             </div>
-            <h3>Extra bass</h3>
+            <h3>Skis</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
               ducimus similique beatae sint deleniti perspiciatis?
@@ -89,9 +92,9 @@
           </div>
           <div class="feature">
             <div class="green">
-              <img src="./images/noise.svg" height="80" width="80" />
+              <img src="./images/ski-boots.png" height="80" width="80" />
             </div>
-            <h3>Noise isolating</h3>
+            <h3>Ski Boots</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
               ducimus similique beatae sint deleniti perspiciatis?
@@ -100,9 +103,9 @@
           </div>
           <div class="feature">
             <div class="green">
-              <img src="./images/bluetooth.svg" height="80" width="80" />
+              <img src="./images/helmet.png" height="80" width="80" />
             </div>
-            <h3>Bluetooth</h3>
+            <h3>Helmets</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
               ducimus similique beatae sint deleniti perspiciatis?
@@ -112,12 +115,12 @@
           <div class="feature">
             <div class="green">
               <img
-                src="./images/battery-status-full.svg"
+                src="./images/gloves.png"
                 height="80"
                 width="80"
               />
             </div>
-            <h3>Longer battery</h3>
+            <h3>Ski Gloves</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
               ducimus similique beatae sint deleniti perspiciatis?
@@ -167,7 +170,7 @@
         </div>
       </section>
       <section id="products">
-        <h3>Related Products</h3>
+        <h3>Top Seller Products</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora,
           minima!
@@ -176,13 +179,13 @@
           <div class="card">
             <img
               class="card-img"
-              src="https://i.ibb.co/VqwKGfG/White-edition-headphones.jpg"
+              src="./images/ski1.jpg"
               alt="White-edition-headphones"
             />
             <div class="ratings">
               <div class="price">
-                <h5>Limited Edition Headphones</h5>
-                <span>$2750</span>
+                <h5>Head Total Joy Skis</h5>
+                <span>$750</span>
               </div>
               <div class="rate">
                 <span class="fa fa-star checked"></span>
@@ -199,14 +202,14 @@
           </div>
           <div class="card">
             <img
-              src="https://i.ibb.co/c2SBhJv/Sounds-as-powerful.jpg"
+              src="./images/helmet1.jpg"
               alt="Sounds-as-powerful"
               class="card-img"
             />
             <div class="ratings">
               <div class="price">
-                <h5>Sound As Powerful</h5>
-                <span>$3200</span>
+                <h5>Quantum Helmet</h5>
+                <span>$300</span>
               </div>
               <div class="rate">
                 <span class="fa fa-star checked"></span>
@@ -224,13 +227,13 @@
           <div class="card">
             <img
               class="card-img"
-              src="https://i.ibb.co/nfMvMKT/Wireless-tv-headphones.jpg"
+              src="./images/skiboots.webp"
               alt="Wireless-tv-headphones"
             />
             <div class="ratings">
               <div class="price">
-                <h5>Wireless Tv Headphones</h5>
-                <span>$2300</span>
+                <h5>Alpine Ski Boots</h5>
+                <span>$800</span>
               </div>
               <div class="rate">
                 <span class="fa fa-star checked"></span>
@@ -248,13 +251,13 @@
           <div class="card">
             <img
               class="card-img"
-              src="https://i.ibb.co/JCbkDYJ/Extra-bass-headphones.jpg"
+              src="./images/skigloves.jpg"
               alt="Extra-bass-headphones"
             />
             <div class="ratings">
               <div class="price">
-                <h5>Extra Bass Headphones</h5>
-                <span>$2800</span>
+                <h5>Hestra Sast Gloves</h5>
+                <span>$179</span>
               </div>
               <div class="rate">
                 <span class="fa fa-star checked"></span>
@@ -271,14 +274,24 @@
           </div>
         </div>
       </section>
+      <section class="video">
+        <!-- Video by cottonbro from Pexels -->
+        <video width="800" height="400" controls id="video">
+          <source src="./video/pexels-ron-lach-7364624.mp4" type="video/mp4">
+        </video>
+      </section>
       <footer>
-        <div class="cart">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum, nemo.</p>
-          <button class="showcase-btn1 cart-btn">ADD TO CART</button>
+        <div class="subscribe">
+          <h3>Subscribe For Special Offers:</h3>
+           <form class="flex" action="https://www.freecodecamp.com/email-submit" id="form">
+            <input type="email" required name="email" placeholder="Please Enter Your Email" id="email">
+            <input class="showcase-btn1 cart-btn" type="submit" id="submit">
+          </form>
         </div>
         <div class="copy">Copyright &copy; BuyIT 2021</div>
       </footer>
     </div>
     <script src="./landing.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
