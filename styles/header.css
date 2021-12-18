@@ -141,11 +141,6 @@ h1 {
 
 }
 
-hr{
-  display: none;
-  border-width: thick;
-}
-
 header{
   position: fixed;
     width: 100%;

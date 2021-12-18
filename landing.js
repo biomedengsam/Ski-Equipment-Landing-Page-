@@ -58,16 +58,12 @@ burger.addEventListener('click', function (e) {
         burger.classList.add('fa-bars');
         const home1 = document.querySelector(".home1");
         home1.style.setProperty("display", "none");
-        const hr = document.querySelector(".hr");
-        hr.style.setProperty("display", "none");
+
     }
     else if (burger.classList.contains('fa-bars')) {
         console.log('fa - bars there');
         burger.classList.remove('fa-bars');
         burger.classList.add('fa-times');
-
-        const hr = document.querySelector(".hr");
-        hr.style.setProperty("display", "block");
         const home1 = document.querySelector(".home1");
         home1.style.setProperty("display", "flex");
         const nav = document.getElementById("nav");
@@ -82,8 +78,6 @@ window.addEventListener('resize',
         if (window_width > 767) {
             const home1 = document.querySelector(".home1");
             home1.style.setProperty("display", "none");
-            const hr = document.querySelector(".hr");
-            hr.style.setProperty("display", "none");
             const nav = document.getElementById("nav");
             nav.style.setProperty("display", "flex");
             burger.classList.remove('fa-times');
