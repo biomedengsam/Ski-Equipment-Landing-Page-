@@ -21,6 +21,10 @@ li {
   z-index: 30;
 }
 
+.search-img {
+padding-right: 1rem;
+}
+
 .search-img,
 .hover-cart {
   cursor: pointer;
@@ -121,7 +125,7 @@ h1 {
 
 .showcase-btn2:hover {
   color: white;
-  background-color: rgb(173, 172, 172);
+  background-color: rgb(26, 24, 24);
 }
 
 .showcase-info {
@@ -146,10 +150,12 @@ header{
     width: 100%;
     top: 0;
     left: 0;
-    background-color: #4147a1;
+    background-color: #4147a1c7;
     z-index: 1000;
     color: white;
 }
+
+/* Media Queries */
 
 @media (max-width: 767px) {
   
