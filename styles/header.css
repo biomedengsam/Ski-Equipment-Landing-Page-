@@ -162,14 +162,14 @@ header{
     flex-direction: column; 
   }
 
-  #nav-bar{
+  /* #nav-bar{
     margin-bottom: 30px;
-  }
+  } */
 
-  .showcase{
+  /* .showcase{
     position: inherit;
     padding-left: 3.2rem;
-}
+} */
   
 
   .showcase-info{
@@ -238,8 +238,8 @@ width: 90%;
 
 }
 
-@media (max-width: 330px){
+/* @media (max-width: 330px){
  .showcase{
    padding-left: 2.2rem;
   }
-}
+} */
